@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Log In</title>
+  <style>
+body {
+    font-family: sans-serif;
+    background-color: beige;
+}
+* {
+    box-sizing: border-box;
+}
+form{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background:#2c3e50;
+    padding: 10px 10px 60px 10px;
+    text-align: center;
+    border-radius: 15%;
+    width: 350px;
+}
+img{
+    width: 130px;
+    height: 130px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.input-field{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+}
+.button{
+    background-color: dodgerblue;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+  </style>
+</head>
+
+<body>
+    <form>
+        <img src="rnhs pek.png">
+
+    <div class="input-container">
+        <input class="input-field" type="text" placeholder="Name">
+    </div>
+
+    <input type="radio" name="type"
+        value="1" checked> Male
+
+        <input type="radio" name="type"
+        value="2" checked> Female 
+
+    <div class="input-container">
+        <input class="input-field" type="text" placeholder="Gmail">
+    </div>
+
+    <div class="input-container">
+        <input class="input-field" type="date" placeholder="Birthdate">
+    </div>
+
+    <div class="input-container">
+        <input class="input-field" type="text" placeholder="Password">
+    </div>
+
+    <div class="Keep me Login">
+        <label><input type="checkbox">All the information provided above are true</label>
+    </div>
+
+    <a href="log in.html"> Sign In </a>
+    <style>
